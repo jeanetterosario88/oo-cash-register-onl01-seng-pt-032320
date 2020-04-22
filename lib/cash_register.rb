@@ -36,7 +36,6 @@ def items
 end
     
 def void_last_transaction
-  binding.pry
   if @items.size == 0
     0.0
   else
