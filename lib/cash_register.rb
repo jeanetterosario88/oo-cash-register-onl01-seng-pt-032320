@@ -40,7 +40,7 @@ def void_last_transaction
   if @items.size == 0
     0.0
   else
-    @items.pop
+    @items = @items.pop
     @total - @last_transaction
   end
 end
